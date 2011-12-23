@@ -104,9 +104,6 @@ public abstract class JavaBaseFactory implements AssemblerFactory {
 									+ PageConstant.DOT
 									+ PageConstant.DEFAULT_TEMPLATE_LANGUAGE
 									+ PageConstant.DOT + rest;
-							if (assembler != null) {
-								return assembler;
-							}
 						}
 					}
 				}

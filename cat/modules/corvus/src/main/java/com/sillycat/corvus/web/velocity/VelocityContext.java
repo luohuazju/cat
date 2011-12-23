@@ -10,7 +10,6 @@ import org.apache.velocity.context.AbstractContext;
 
 public class VelocityContext extends AbstractContext implements Cloneable {
 
-	private static final long serialVersionUID = -6825676035752112331L;
 
 	Map<String,Object> context = new HashMap<String,Object>();
 
