@@ -1,0 +1,28 @@
+<h1>Shop List</h1>
+
+<table>
+	<tr>
+		<td>
+			ShopName
+        </td>
+		<td>
+			ShopType
+		</td>
+		<td>
+			ShopCreateDate
+		</td>
+    </tr>
+#foreach( $item in $shops )
+	<tr>
+		<td>
+			${item.shopName}
+        </td>
+		<td>
+			${item.shopType}
+		</td>
+		<td>
+			${item.createDate}
+		</td>
+    </tr>
+#end
+</table>
