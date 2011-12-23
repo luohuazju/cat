@@ -10,7 +10,9 @@ public interface ControllerConstant {
 
 	public static final String BASEDIR_KEY = "basedir";
 
-	public static final String DEFAULT_TEMPLATE_SUFFIX = ".vm";
+	public static final String DEFAULT_TEMPLATE_SUFFIX = ".vm";  
+	
+	//I will put comments here
 
 	public static final String CONTENT_TYPE = "default.contentType";
 
