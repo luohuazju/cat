@@ -1,9 +1,0 @@
-<form name="form" method="post" action="">
-	<input type="hidden" name="action" value="shop/shopAction" />
-	<input type="hidden" name="id" value="$!{shop.id}" />
-	shopName:<input type="text" name="shopName" value="$!{shop.shopName}"><br />
-	shopType:<input type="text" name="shopType" value="$!{shop.shopType}"><br />
-    shopDescription:<input type="text" name="shopDescription" value="$!{shop.shopDescription}"><br />
-	<input type="submit" name="eventSubmit_doSave" value="submit">
-	<input type="submit" name="eventSubmit_doEcho" value="echo">
-</form>
