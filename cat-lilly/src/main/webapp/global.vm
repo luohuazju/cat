@@ -1,0 +1,5 @@
+#macro(showMessage $param)
+	#if($param)
+	<li>$param</li>
+	#end
+#end
