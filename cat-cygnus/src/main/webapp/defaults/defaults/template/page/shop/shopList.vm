@@ -1,0 +1,12 @@
+<html>
+	<head>
+		<title>shop List</title>
+	</head>
+	<body>
+		<h1>Shop List</h1>
+		<div>
+			$screen_placeholder
+		</div>
+		<div>${control.setTemplate('shopBottom.vm')}</div>
+	</body>
+</html>
